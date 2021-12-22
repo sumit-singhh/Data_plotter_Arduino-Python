@@ -18,11 +18,6 @@ print("File Created")
 
 
 while True:
-    # if print_label:
-    #     if line == 0:
-    #         print("Printing Column Header")
-    #     else:
-    #         print("Line " + str(line) + ": writing...")
 
     getData = str(ser.readline())
     data = getData[2:][:-5]
